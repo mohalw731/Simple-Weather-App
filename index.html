@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+   
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city hidden">New York, <span class="country">US</span></div>
+        <div class="date hidden">Wednesday 22 July 2020</div>
+      </section>
+      <div class="current">
+        <div class="temp hidden">15<span>°c</span></div>
+        <div class="weather hidden">Sunny</div>
+        <div class="hi-low hidden">13°c / 16°c</div>
+      </div>
+    </main>
+  </div>
+
+  <div class="frame">
+    <div class="modal hidden">
+      <img src="https://100dayscss.com/codepen/alert.png" width="44" height="38" />
+          <span class="title">Something went wrong</span>
+          <p class="errorText">An error has occured while creating an error report.</p>
+    </div>
+  </div>
+  <div class="darkBackground hidden"></div>
+  <script src="main.js"></script>
+</body>
+</html>
